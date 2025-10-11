@@ -1,0 +1,56 @@
+
+
+
+/* --- Bloc principal pour l'image FST en chiffres --- */
+.bloc-chiffres {
+  max-width: 1200px;
+  margin: 50px auto 100px;
+  padding: 0 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Inter', sans-serif;
+}
+
+/* Conteneur de l'image */
+.img-chiffres {
+  width: 100%;
+  background: #fff;
+  border-radius: 14px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+/* Image ajustée à la page */
+.img-chiffres img {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  border-radius: 14px;
+}
+
+/* Arrière-plan subtil pour la page */
+body {
+  background: #f7f8fc;
+}
+
+/* Ajustements pour les écrans moyens et petits */
+@media (max-width: 900px) {
+  .bloc-chiffres {
+    margin: 30px auto 70px;
+  }
+  .img-chiffres {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  }
+}
+
+@media (max-width: 600px) {
+  .bloc-chiffres {
+    margin: 20px auto 50px;
+    padding: 0 10px;
+  }
+  .img-chiffres img {
+    border-radius: 10px;
+  }
+}
