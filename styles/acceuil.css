@@ -1,0 +1,74 @@
+.banner {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: url('/Images/woow.png') center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  padding-left: 80px;
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+}
+
+.banner-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.55);
+  z-index: 1;
+}
+
+.banner-text {
+  position: relative;
+  z-index: 2;
+  max-width: 650px;
+}
+
+.banner-text h1 {
+  font-size: 3.5rem;
+  margin-bottom: 25px;
+}
+
+.banner-text .fst {
+  font-weight: 700;
+}
+
+
+
+.banner-text p {
+  font-size: 1.15rem;
+  line-height: 1.6;
+  margin-bottom: 35px;
+}
+
+.actions {
+  display: flex;
+  gap: 20px;
+}
+
+.brown-btn,
+.blue-btn {
+  padding: 12px 28px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.3s ease;
+}
+
+.brown-btn {
+  background: rgb(135, 39, 39);
+  color: #fff;
+}
+
+.blue-btn {
+  background: #0d2e79;
+  color: #fff;
+}
+
+.brown-btn:hover,
+.blue-btn:hover {
+  opacity: 0.9;
+  transform: translateY(-2px);
+}

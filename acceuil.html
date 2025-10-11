@@ -3,96 +3,86 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styleNAV.css">
+    <link rel="stylesheet" href="styles/acceuil.css">
     <title>Acceuil FSTG</title>
 </head>
 <body>
-    <div class="logo">
-      <a href="accueil.html"><img src="image/fstg.png" alt="Logo FSTG"></a>
-    </div>
-    <nav>
-        <ul>
-            <li>
-                <a href="acceuil.html"> acceuil </a>
-            </li>
-            <li>
-                La Faculté     
-                <ul>
-                    <li>
-                        <a href="FSTG_Doyen.html"> Mots du doyen  </a>
-                    </li>
-                    <li>
-                        <a href="FSTG_Bref.html"> FST en Bref </a>
-                    </li>
-                    <li>
-                        <a href="FSTG_CH.html"> FST en chiffre </a>
-                    </li>
-                    <li>
-                        <a href="Architecture.html"> Architecture Pédagogique </a>
-                    </li>
-                </ul>
-            </li>
-            <li>
-                Formation    
-                <ul>
-                    <li>
-                        <a href="Tronc.html"> Tronc commun </a>
-                    </li>
-                    <li>
-                        <a href="Licence.html"> Licence </a>
-                    </li>
-                    <li>
-                        <a href="Master.html"> Cycle Master </a>
-                    </li>
-                    <li>
-                        <a href="Cycle.html"> Cycle d'ingenieur </a>
-                    </li>
-                    <li>
-                        <a href="formation.html"> Formation continue </a>
-                    </li>
-                </ul>
-            </li>
-            <li>
-                <a href="departement.html"> Départements  </a>
-            </li>
-            <li>
-                Recherche 
-                <ul>
-                    <li>
-                        <a href="laboratoire.html"> Laboratoires </a>
-                    </li>
-                    <li>
-                        <a href="equipe.html"> Equipes </a>
-                    </li>
-                    <li>
-                        <a href="ced.html"> CED-SI </a>
-                    </li>
-                    <li>
-                        <a href="Bourse.html"> Bourses D'excellence  </a>
-                    </li>
-                </ul>
-            </li>
-            <li>
-                Activités 
-                <ul>
-                    <li>
-                        <a href="manifestation.html"> Manifestations  </a>
-                    </li>
-                    <li>
-                        <a href="ac.html"> Activités Culturelle  </a> 
-                    </li>
-                    <li>
-                        <a href="as.html"> Activités Sportives  </a>
-                    </li>
-                </ul>
-            </li>
-        </ul>
-    </nav>
+   <header class="nav-bar ">
+  
+  <a href="accueil.html" class="logo-left">
+    <img src="Images/fst.jpeg" alt="Logo FSTG">
+  </a>
 
-    <marquee behavior="scroll" direction="left" scrollamount="20">
-        <img src="images/fstg1.jpg" width="900" >
-        <img src="images/fstg2.jpg" width="900" >
-        <img src="images/fstg3.jpg" width="900" >
-    </marquee>
+ 
+  <nav class="main-nav">
+    <ul class="nav-list">
+      <li>
+        <a href="acceuil.html"> acceuil </a>
+      </li>
+      <li class="dropdown">
+        <span>La Faculté</span>
+        <ul class="menu">
+          <li><a href="FSTG_Doyen.html"> Mots du doyen </a></li>
+          <li><a href="FSTG_Bref.html"> FST en Bref </a></li>
+          <li><a href="FSTG_CH.html"> FST en chiffre </a></li>
+          <li><a href="Architecture.html"> Architecture Pédagogique </a></li>
+        </ul>
+      </li>
+      <li class="dropdown">
+        <span>Formation</span>
+        <ul class="menu">
+          <li><a href="Tronc.html"> Tronc commun </a></li>
+          <li><a href="Licence.html"> Licence </a></li>
+          <li><a href="Master.html"> Cycle Master </a></li>
+          <li><a href="Cycle.html"> Cycle d'ingenieur </a></li>
+          <li><a href="formation.html"> Formation continue </a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="departement.html"> Départements </a>
+      </li>
+      <li class="dropdown">
+        <span>Recherche</span>
+        <ul class="menu">
+          <li><a href="laboratoire.html"> Laboratoires </a></li>
+          <li><a href="equipe.html"> Equipes </a></li>
+          <li><a href="ced.html"> CED-SI </a></li>
+          <li><a href="Bourse.html"> Bourses D'excellence </a></li>
+        </ul>
+      </li>
+      <li class="dropdown">
+        <span>Activités</span>
+        <ul class="menu">
+          <li><a href="manifestation.html"> Manifestations </a></li>
+          <li><a href="ac.html"> Activités Culturelle </a></li>
+          <li><a href="as.html"> Activités Sportives </a></li>
+        </ul>
+      </li>
+    </ul>
+  </nav>
+
+ 
+  <a href="#" class="logo-right">
+    <img src="Images/uni.png" alt="Université">
+  </a>
+</header>
+
+   <section class="banner">
+  <div class="banner-overlay"></div>
+  <div class="banner-text">
+    <h1><span class="fst">FST</span> <span class="city">Marrakech</span></h1>
+    <p>
+      Nous avons pour mission de former et de guider les futurs ingénieurs en leur
+      offrant les compétences et les connaissances nécessaires pour relever les
+      défis technologiques et industriels de demain.
+    </p>
+    <div class="actions">
+      <a href="FSTG_Bref.html" class="brown-btn">En savoir plus</a>
+      <a href="FSTG_Doyen.html" class="blue-btn">Mots du doyen</a>
+    </div>
+  </div>
+</section>
 
     <table border="2">
         <tr>
