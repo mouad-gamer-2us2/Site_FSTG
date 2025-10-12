@@ -1,7 +1,7 @@
 /* --- Bannière  */
 .banniere-fstg {
   position: relative;
-  background: url('/Images/wallpapertest.png') center/cover no-repeat;
+  background: url("../Images/wallpapertest.png") no-repeat center center/cover;
   height: 300px;
   display: flex;
   align-items: center;

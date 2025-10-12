@@ -1,0 +1,70 @@
+
+.h1 {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  font-size: 2rem;
+  color: #2c3e50;
+  margin-bottom: 25px;
+ 
+}
+
+
+.manifestations-list {
+  list-style: none;
+  padding-left: 0;
+  width: 85%;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+
+.manifestations-list > li {
+  background-color: #f7f9fb;
+  border-left: 4px solid #2980b9;
+  padding: 12px 20px;
+  margin-bottom: 12px;
+  border-radius: 5px;
+  transition: background-color 0.2s ease;
+}
+
+
+.manifestations-list > li:hover {
+  background-color: #e3f2fd;
+}
+
+
+.manifestations-list > li a {
+  color: #145a86;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+.manifestations-list > li a:hover {
+  color: #0d3b57;
+  text-decoration: underline;
+}
+
+
+.sub-list {
+  list-style: disc inside;
+  margin-top: 8px;
+  margin-left: 20px;
+  padding-left: 0;
+}
+
+
+.sub-list li {
+  background-color: #eef5fb;
+  padding: 6px 12px;
+  margin-bottom: 5px;
+  border-left: 3px solid #145a86;
+  border-radius: 3px;
+}
+
+
+.manifestations-list li p {
+  margin: 8px 0;
+  color: #555;
+}
